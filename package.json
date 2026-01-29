@@ -31,6 +31,12 @@
       ]
     }
   },
+  "contributors": [
+    {
+      "name": "DevStarByte",
+      "url": "https://github.com/DevStarByte2025"
+    }
+  ],
   "description": "CodeMapVisualizer is a Visual Studio Code extension that automatically generates flow maps as UML diagrams from your C# source code and displays them interactively in the editor. Easily visualize code structure, relationships, and flow for better understanding and navigation.",
   "devDependencies": {
     "@types/mocha": "^10.0.10",
@@ -48,6 +54,10 @@
   },
   "main": "./out/extension.js",
   "name": "codemapvisualizer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StarByteGames/CodeMapVisualizer.git"
+  },
   "scripts": {
     "compile": "tsc -p ./",
     "lint": "eslint src",

@@ -1,28 +1,31 @@
 # CodeMapVisualizer
 
-CodeMapVisualizer is a Visual Studio Code extension that automatically generates a flow map as a UML diagram from C# source code and displays it in the editor.
+CodeMapVisualizer is a Visual Studio Code extension that helps you visualize your C# code as UML diagrams directly in the editor.
 
-## Features
-- Parses C# source code to generate UML diagrams
-- Visualizes code structure and flow in an interactive webview
-- Integrates with the VS Code activity bar for easy access
+## How to Use
 
-## Usage
-1. Open a C# project in VS Code.
-2. Click on the CodeMapVisualizer icon in the activity bar.
-3. Use the command palette (`Ctrl+Shift+P`) and search for `CodeMapVisualizer: UML-Diagramm anzeigen` to display the UML diagram.
+1. **Install the Extension**
+	- Search for "CodeMapVisualizer" in the VS Code Extensions Marketplace and install it.
+
+2. **Open Your C# Project**
+	- Open the folder containing your C# source code in VS Code.
+
+3. **Show the UML Diagram**
+	- Click the CodeMapVisualizer icon in the activity bar on the side of VS Code.
+	- Or, open the command palette (`Ctrl+Shift+P`), type `CodeMapVisualizer: UML-Diagramm anzeigen`, and select it.
+
+4. **Explore Your Code**
+	- The extension will automatically generate and display a UML diagram of your code structure.
+	- Click on elements in the diagram to navigate to the corresponding code.
 
 ## Requirements
+
 - Visual Studio Code v1.108.1 or higher
 
-## Extension Settings
-No additional settings are required.
+## Support
 
-## Development
-- Run `npm install` to install dependencies
-- Use `npm run watch` for development
-- Use `npm run compile` to build the extension
-- Use `npm test` to run tests
+If you have questions, suggestions, or issues, please visit the [GitHub repository](https://github.com/StarByteGames/CodeMapVisualizer).
 
 ## License
-MIT
+
+This project is licensed under the MIT License. See [LICENSE.md](LICENSE.md) for details.
